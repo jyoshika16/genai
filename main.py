@@ -7,7 +7,7 @@ app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = 'uploads'
 
 # Gemini client
-client = genai.Client(api_key="AIzaSyAzeyOexEyhSj_Z9nw_s56tz1uJhZaz9C0")
+client = genai.Client(api_key="your api key")
 
 def extract_text_from_pdf(pdf_path):
     extracted_text = ""
